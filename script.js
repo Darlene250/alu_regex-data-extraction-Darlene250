@@ -11,3 +11,9 @@ let str = {
     "Currency amounts" : ["$19.99", "$1,234.56", "$0.99", "$100"]
 
 };
+//The regular expression patterns for fetching
+let EmailRegex = /[a-zA-Z0-9.]+@[a-zA-Z]+\.com?(\.uk)?/g
+let linkRegex = /https?:\/\/[a-zA-Z]+\.example\.[a-zA-Z]+(\/[a-zA-Z]+)?/g
+let Phonenumber = /\(?\d{3,}\)?(\s|\.|-)\d{3,}(-|.)\d{4,}/g
+let CreditCard = /\d{4,}(\s|-)\d{4,}(\s|-)\d{4,}(\s|-)\d{4,}/g
+let HtmltagsRegex = /<[^>]+>/g
